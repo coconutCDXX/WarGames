@@ -4,7 +4,7 @@ $cookie = "ClVLIh4ASCsCBE8lAxMacFMZV2hdVVotEhhUJQNVAmhSEV4sFxFeaAw";
 
 function xor_encrypt2($in, $in2) {
     // $key = echo $out;
-	$key = "qw8j";
+	$key = $in2;
     $text = $in;
     $outText = '';
 
@@ -31,7 +31,8 @@ function xor_encrypt($in) {
 $out = xor_encrypt(base64_decode($cookie));
 	echo $out;
 	echo "\r\n";
-	echo "qw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jq";
-	echo "\r\n";
-	echo $in = base64_encode(xor_encrypt2(json_encode(array( "showpassword"=>"yes", "bgcolor"=>"#ffffff")), $out));
+	echo $in = base64_encode(xor_encrypt2(json_encode(array( "showpassword"=>"yes", "bgcolor"=>"#ffffff")), "qw8J"));
 ?>
+
+<!-- qw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jq
+qw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jq -->
