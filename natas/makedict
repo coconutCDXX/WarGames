@@ -1,0 +1,1 @@
+echo "" > dict.txt && for i in {1..640}; do echo $i >> dict.txt; done
