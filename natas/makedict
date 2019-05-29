@@ -1,1 +1,1 @@
-echo "" > dict.txt && for i in {1..640}; do echo $i >> dict.txt; done
+echo "" > dict2.txt && for i in {1..640}; do echo "$i-admin" | hexdump -e '16/1 "%02x " "\n"' | tr -d [:blank:] >> dict2.txt; done
